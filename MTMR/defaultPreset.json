@@ -28,19 +28,19 @@
     }
   },
 
-  // iTunes
+  // Music 
   {
     "type": "appleScriptTitledButton",
     "source": {
-      "inline": "if application \"iTunes\" is running then\rtell application \"iTunes\"\rif player state is playing then\rreturn (get artist of current track) & \" – \" & (get name of current track)\relse\rreturn \"\"\rend if\rend tell\rend if\rreturn \"\"\r"
+      "inline": "if application \"Music\" is running then\rtell application \"Music\"\rif player state is playing then\rreturn (get artist of current track) & \" – \" & (get name of current track)\relse\rreturn \"\"\rend if\rend tell\rend if\rreturn \"\"\r"
     },
     "action": "appleScript",
     "actionAppleScript": {
-      "inline": "if application \"iTunes\" is running then\rtell application \"iTunes\"\rif player state is playing then\rnext track\rend if\rend tell\rend if\r"
+      "inline": "if application \"Music\" is running then\rtell application \"Music\"\rif player state is playing then\rnext track\rend if\rend tell\rend if\r"
     },
     "longAction": "appleScript",
     "longActionAppleScript": {
-      "inline": "if application \"iTunes\" is running then\rtell application \"iTunes\"\rif player state is playing then\rprev track\rend if\rend tell\rend if\r"
+      "inline": "if application \"Music\" is running then\rtell application \"Music\"\rif player state is playing then\rprev track\rend if\rend tell\rend if\r"
     },
     "refreshInterval": 2,
     "image": {

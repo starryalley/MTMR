@@ -1,3 +1,7 @@
+if application "Music" is running then
+    tell application "Music" to playpause
+end if
+
 if application "iTunes" is running then
 	tell application "iTunes" to playpause
 end if

@@ -12,11 +12,11 @@
     "type": "appleScriptTitledButton",
     "source": {
       "filePath":
-        "/Users/toxblh/git/selfProjects/MTMR/MTMR/AppleScripts/iTunes.nowPlaying.scpt"
+        "/Users/toxblh/git/selfProjects/MTMR/MTMR/AppleScripts/Music.nowPlaying.scpt"
     },
     "action": "appleScript",
     "actionAppleScript": {
-      "filePath": "/Users/toxblh/git/selfProjects/MTMR/MTMR/AppleScripts/iTunes.next.scpt"
+      "filePath": "/Users/toxblh/git/selfProjects/MTMR/MTMR/AppleScripts/Music.next.scpt"
     },
     "refreshInterval": 1,
     "image": {
